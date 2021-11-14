@@ -1,35 +1,47 @@
 h1
 {
-    margin-left: 725px;
-}
-.one
-{
-    font-size: 80px;
     text-align: center;
-    margin-right: 60px;
+    font-weight: normal;
 }
-.two
+.apple
 {
-    text-align: center;
-    margin-right: 60px;
+    transform: translateY(-75px);
+    margin-left: 800px;
 }
-input
+header
 {
-    margin-left: 1100px;
-    transform: translateY(-60px);
+    background: rgb(254,255,255); 
+    background: -moz-linear-gradient(top,  rgba(254,255,255,1) 0%, rgba(210,235,249,1) 100%); 
+    background: -webkit-linear-gradient(top,  rgba(254,255,255,1) 0%,rgba(210,235,249,1) 100%); 
+    background: linear-gradient(to bottom,  rgba(254,255,255,1) 0%,rgba(210,235,249,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#d2ebf9',GradientType=0 ); 
 }
-.three
+.backgrounde_image
 {
-    margin-left: 900px;
+    width: 1890px;
+}
+div[class~="model"]
+{
     margin-top: 100px;
+    margin-left: 100px;
 }
-table,tr,td
+p[class|="text"]
 {
-    margin-left: 701px;
-    background-color: rgba(199, 199, 199, 0.1)
+    font-size: 40px;
 }
-td:hover
+.services_iphone
 {
-    color:darkcyan;
+    font-size: 40px;
+}
+.services
+{
+    margin-left: 1400px;
+    transform: translateY(-840px);
+}
+li:hover
+{
+    color: red;
     transition: 0.3s;
 }
+
+
